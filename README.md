@@ -6,9 +6,13 @@ This my repository for training (HTML and CSS)
 
 .
 ├── Cards                   # Here you can find cards
+
 ├── Landing-pages           # Here you can find landing pages
+
 ├── Websites                # Here you can find websites
+
 ├── .gitignore              # For ignoring files and folders
+
 └── README.md               # For documentation
 
 ## Built with :
