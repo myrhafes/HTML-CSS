@@ -5,6 +5,7 @@ This my repository for training (HTML and CSS)
 ## Structure before solving
 
 .
+
 ├── Cards                   # Here you can find cards
 
 ├── Landing-pages           # Here you can find landing pages
@@ -23,7 +24,7 @@ This my repository for training (HTML and CSS)
 
 ## Contributors :
 
--  [Mohamed Yassine Rhafes](https://github.com/myrhafes) [https://www.linkedin.com/in/myrhafes/](https://www.linkedin.com/in/myrhafes/)
+-  [Mohamed Yassine Rhafes](https://www.linkedin.com/in/myrhafes/) [https://www.linkedin.com/in/myrhafes/](https://www.linkedin.com/in/myrhafes/)
 
 ## Copyright
 

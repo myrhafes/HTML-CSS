@@ -1,0 +1,79 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Syne+Tactile&display=swap');
+
+:root {
+    --violet: #d33bfb;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+/* HEADER START */
+/* NAV START */
+header {
+    background: linear-gradient(#13181d, #20212e, #431b47);
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 5% 0 5%;
+    align-items: center;
+}
+
+header nav h1 {
+    margin: 0;
+    text-transform: uppercase;
+    color: var(--violet);
+}
+
+header nav .right {
+    display: flex;
+    align-items: center;
+}
+
+header nav .right p {
+    margin-right: 15px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+header nav .right p:hover {
+    color: white;
+}
+
+header nav .right button {
+    padding: 5px 15px;
+    font-size: 16px;
+    background-color: inherit;
+    border: 1px solid var(--violet);
+    color: var(--violet);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+    transition: color 0.5s, background-color 0.5s ;
+    -webkit-transition: color 0.5s, background-color 0.5s ;
+    -moz-transition: color 0.5s, background-color 0.5s ;
+    -ms-transition: color 0.5s, background-color 0.5s ;
+    -o-transition: color 0.5s, background-color 0.5s ;
+}
+
+header nav .right button:hover{
+    color: inherit;
+    background-color: var(--violet);
+}
+/* NAV END */
+
+/* MEDIA QUERY */
+@media (max-width: 640px){
+    header nav .right p{
+        display: none;
+    }
+}
