@@ -191,6 +191,28 @@ header nav .right button:hover{
 }
 /* SECONDE SECTION END*/
 
+/* FOOTER START*/
+footer{
+    margin: 0;
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer h3 {
+    color: var(--violet);
+}
+
+footer p {
+    cursor: pointer;
+    color: #ccc;
+}
+
+footer p:hover {
+    color: white;
+}
+/* FOOTER END*/
 
 /* MEDIA QUERY */
 @media (max-width: 640px){
@@ -208,5 +230,14 @@ header nav .right button:hover{
 
     .first .presentation-product .small-images .small img {
         width: 90px;
+    }
+
+    footer {
+        justify-content: center;
+        align-content: center;
+    }
+
+    .column {
+        width: 80%;
     }
 }
