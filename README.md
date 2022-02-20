@@ -2,13 +2,15 @@
 Hi!
 This my repository for training (HTML and CSS)
 
-## Structure before solving
+## Structure 
 
 .
 
 ├── Cards                   # Here you can find cards
 
 ├── Landing-pages           # Here you can find landing pages
+
+│ └── HEADBOOST              # Landing page for Head Boost  
 
 ├── Websites                # Here you can find websites
 
