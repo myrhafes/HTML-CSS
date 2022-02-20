@@ -163,6 +163,33 @@ header nav .right button:hover{
     -webkit-filter: brightness(50%);
 }
 /* PRESENTATION SECTION END */
+/* HEADER START */
+
+/* SECONDE SECTION START*/
+.second {
+    margin: 0;
+    background-color: #13181d;
+}
+
+.second .presentation-product .new {
+    color: var(--violet);
+}
+
+.second .presentation-product button {
+    background-color: inherit;
+    border: 1px solid var(--violet);
+    color: var(--violet);
+    transition: background-color .5s, color .5s;
+    -webkit-transition: background-color .5s, color .5s;
+    -moz-transition: background-color .5s, color .5s;
+    -ms-transition: background-color .5s, color .5s;
+    -o-transition: background-color .5s, color .5s;
+}
+.second .presentation-product button:hover {
+    background-color: var(--violet);
+    color: white;
+}
+/* SECONDE SECTION END*/
 
 
 /* MEDIA QUERY */
