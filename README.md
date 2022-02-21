@@ -4,21 +4,16 @@ This my repository for training (HTML and CSS)
 
 ## Structure 
 
+```bash
 .
-
 ├── Cards                   # Here you can find cards
-
 ├── Landing-pages           # Here you can find landing pages
-
 │ └── HeadBoost              # Landing page for Head Boost 
-
 │ └── Energy Drink           # Landing page for Energy Drink 
-
 ├── Websites                # Here you can find websites
-
 ├── .gitignore              # For ignoring files and folders
-
 └── README.md               # For documentation
+```
 
 ## Built with :
 
@@ -33,5 +28,6 @@ This my repository for training (HTML and CSS)
 ## Copyright
 
 You can use all templates for free.
+
 Copyright © 2022, Mohamed Yassine RHAFES.
 
