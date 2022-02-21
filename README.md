@@ -10,7 +10,9 @@ This my repository for training (HTML and CSS)
 
 ├── Landing-pages           # Here you can find landing pages
 
-│ └── HEADBOOST              # Landing page for Head Boost  
+│ └── HeadBoost              # Landing page for Head Boost 
+
+│ └── Energy Drink           # Landing page for Energy Drink 
 
 ├── Websites                # Here you can find websites
 
