@@ -8,9 +8,9 @@ This my repository for training (HTML and CSS)
 .
 ├── Cards                   # Here you can find cards
 ├── Landing-pages           # Here you can find landing pages
-│ └── HeadBoost              # Landing page for Head Boost 
-│ └── Energy Drink           # Landing page for Energy Drink 
+│ └── HeadBoost              # Landing page: Head Boost 
 ├── Websites                # Here you can find websites
+│ └── Leon                   # Website: Leon template
 ├── .gitignore              # For ignoring files and folders
 └── README.md               # For documentation
 ```
