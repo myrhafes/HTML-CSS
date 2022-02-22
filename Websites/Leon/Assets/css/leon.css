@@ -142,6 +142,7 @@ body {
 }
 /* END HEADER */
 
+/* START LANDING SECTION */
 .landing {
     background-image: url(../images/landing.jfif);
     background-size: cover;
@@ -175,3 +176,37 @@ body {
     line-height: 1.8;
     color: white;
 }
+/* END LANDING SECTION */
+
+/* START FEATURE SECTION */
+.features {
+    padding: 60px 0;
+    background-color: #F6F6F6;
+}
+
+.features .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.features .feat {
+    padding: 20px;
+    text-align: center;
+}
+
+.features .feat i {
+    color: var(--mainColor);
+}
+
+.features .feat h3 {
+    font-weight: 800;
+    margin: 30px 0;
+}
+
+.features .feat p {
+    line-height: 1.8;
+    color: #777;
+    font-size: 17px;
+}
+/* END FEATURE SECTION */
