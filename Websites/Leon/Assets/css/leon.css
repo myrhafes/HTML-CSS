@@ -11,3 +11,36 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 /* END GLOBAL RULES */
+
+.parent {
+    background-color: #eee;
+    
+}
+
+.container {
+    background-color: #ccc;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* MEDIA QUERY */
+/* SMALL */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* MEDIUM */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* LARGE */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
