@@ -1,5 +1,7 @@
 /* START VARIABLES */
-
+:root {
+    --mainColor: #10cab7;
+}
 /* END VARIABLES */
 
 /* START GLOBAL RULES */
@@ -102,6 +104,7 @@ body {
     min-width: 180px;
     top: calc(100% + 15px);
     display: none;
+    z-index: 1;
 }
 
 .header .links ul::before {
@@ -136,4 +139,39 @@ body {
 
 .header .links ul li:not(:last-child) {
     border-bottom: 1px solid #ddd;
+}
+/* END HEADER */
+
+.landing {
+    background-image: url(../images/landing.jfif);
+    background-size: cover;
+    height: calc(100vh - 64px);
+    position: relative;
+}
+
+.landing .intro-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    width: 320px;
+    max-width: 100%;
+    transform: translate(-50%, 50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+}
+
+.landing .intro-text h1 {
+    color: var(--mainColor);
+    margin: 0;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.landing .intro-text p {
+    font-size: 19px;
+    line-height: 1.8;
+    color: white;
 }
