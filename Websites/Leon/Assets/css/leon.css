@@ -302,3 +302,41 @@ body {
     }
 }
 /* END SERVICES SECTION */
+
+/* START PORTFOLIO */
+.portfolio {
+    padding: 60px 0;
+    background-color: #F6F6F6;
+}
+
+.portfolio .portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 30px;
+    margin-top: 80px;
+}
+
+.portfolio .portfolio-content .card {
+    background-color: white;
+}
+
+.portfolio .portfolio-content .card img {
+    max-width: 100%;
+}
+
+.portfolio .portfolio-content .card .info {
+    padding: 20px;
+}
+
+.portfolio .portfolio-content .card h3 {
+    margin: 0;
+}
+
+.portfolio .portfolio-content .card p {
+    color: #777;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+
+/* END PORTFOLIO */
