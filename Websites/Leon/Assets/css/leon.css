@@ -424,3 +424,50 @@ body {
     color: #777;
 }
 /* END ABOUT SECTION */
+
+/* START CONTACT SECTION AND FOOTER */
+.contact {
+    padding: 60px 0;
+    background-color: #F6F6F6;
+}
+
+.contact .info {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact .info .label {
+    margin-bottom: 15px;
+    letter-spacing: -2px;
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--secondaryColor);
+}
+
+.contact .info .link {
+    display: block;
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--mainColor);
+    text-decoration: none;
+}
+
+.contact .info .social {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.contact .info .social i {
+    margin-left: 10px;
+    color: var(--secondaryColor);
+}
+
+@media (max-width: 767px) {
+    .contact .info .label,
+    .contact .info .link {
+        font-size: 25px;
+    }
+}
+/* END CONTACT SECTION AND FOOTER */
