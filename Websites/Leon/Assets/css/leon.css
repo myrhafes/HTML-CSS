@@ -425,7 +425,7 @@ body {
 }
 /* END ABOUT SECTION */
 
-/* START CONTACT SECTION AND FOOTER */
+/* START CONTACT SECTION */
 .contact {
     padding: 60px 0;
     background-color: #F6F6F6;
@@ -470,4 +470,19 @@ body {
         font-size: 25px;
     }
 }
-/* END CONTACT SECTION AND FOOTER */
+/* END CONTACT SECTION */
+
+/* START FOOTER */
+.footer {
+    background-color: var(--secondaryColor);
+    color: white;
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer span {
+    color: var(--mainColor);
+    font-weight: bold;
+}
+/* END FOOTER */
