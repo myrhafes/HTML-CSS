@@ -11,6 +11,28 @@
 }
 /* END GLOBAL RULES */
 
+/* START GLOBAL COMPONENT */
+.title-heading {
+    width: 80%;
+    margin: 60px auto 40px auto;
+    text-align: center;
+}
+
+.title-heading h1 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.title-heading p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+/* END GLOBAL COMPONENT */
+
 /* START HEADER SECTION */
 .header {
     width: 100%;
@@ -163,3 +185,7 @@
 
 }
 /* END HEADER SECTION */
+
+/* START COURSE SECTION */
+
+/* END COURSE SECTION */
