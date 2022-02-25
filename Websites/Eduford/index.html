@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- FAVICON -->
     <link rel="icon" type="image/x-icon" href="Assets/images/favicon.png">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="Assets/css/all.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="Assets/css/master.css">
     <!-- NORMALIZE -->
@@ -15,6 +21,32 @@
     <title>Eduford</title>
 </head>
 <body>
-    
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Assets/images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-solid fa-xmark" onclick="closeMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's biggest university</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus fuga et iure minima 
+                rem nobis nisi assumenda commodi dolorum neque eos, perspiciatis consectetur, 
+                beatae quia debitis alias, dignissimos consequatur molestiae.
+            </p>
+            <button href="">Visit us to know more!</button>
+        </div>
+    </section>
+    <!-- JAVASCRIPT -->
+    <script src="Assets/js/index.js"></script>
 </body>
 </html>
