@@ -326,4 +326,72 @@
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
+
+.facilities .facilities-content .card h3 {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.facilities .facilities-content .card p {
+    font-size: 15px;
+}
 /* END FACILITIES SECTION */
+
+/* START STUDENTS SECTION */
+.student {
+    margin: 0 5%;
+}
+
+.student .student-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.student .student-content .card {
+    width: 500px;
+    margin-bottom: 5%;
+    padding: 10px;
+    background-color: #FFF3F3;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.student .student-content .card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.student .student-content .card .text {
+    margin: 0;
+}
+
+.student .student-content .card .text p{
+    margin: 0 10px 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.student .student-content .card .text h3{
+    margin: 0 10px 10px;
+    font-size: 20px;
+    font-weight: 000;
+}
+
+.student .student-content .card .text .star {
+    margin-left: 10px;
+}
+/* END STUDENTS SECTION */
