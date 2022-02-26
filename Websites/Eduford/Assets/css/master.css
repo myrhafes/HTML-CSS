@@ -298,5 +298,32 @@
 .campus .campus-content .card:hover .layer {
     bottom: 0;
 }
-
 /* END CAMPUS SECTION */
+
+/* START FACILITIES SECTION */
+.facilities {
+    margin: 0 5%;
+}
+
+.facilities .facilities-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.facilities .facilities-content .card {
+    margin: 0 auto 30px auto;
+    max-width: 350px;
+    overflow: hidden;
+}
+
+.facilities .facilities-content .card img {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+/* END FACILITIES SECTION */
