@@ -262,7 +262,9 @@
 }
 
 .campus .campus-content .card img {
+    display: block;
     width: 100%;
+    height: 100%;
 }
 
 .campus .campus-content .card .layer {
