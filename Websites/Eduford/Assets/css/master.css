@@ -352,7 +352,7 @@
 
 .student .student-content .card {
     width: 500px;
-    margin-bottom: 5%;
+    margin: 0 5px 5% 5px;
     padding: 10px;
     background-color: #FFF3F3;
     display: flex;
@@ -395,3 +395,49 @@
     margin-left: 10px;
 }
 /* END STUDENTS SECTION */
+
+/* START CALL TO ACTION */
+.cta {
+    margin: 0 5%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/banner2.jpg);
+    margin: 100px auto;
+    width: 80%;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.cta h1 {
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.cta button {
+    padding: 15px 20px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.cta button:hover {
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+/* END CALL TO ACTION */
