@@ -25,14 +25,61 @@ body {
     grid-auto-flow: column;
     grid-template-columns: 300px 1fr;
     grid-template-areas: "left right";
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
 }
 
-/* @media (max-width: 1000px) {
+@media (max-width: 1000px) {
     .blog-content {
-        grid-auto-flow: row;
+        grid-auto-rows: row;
         grid-template-rows: 60px 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "top" 
+            "right";
     }
-} */
+}
+
+/* START TOP SECTION */
+.blog-content .top-content {
+    position: relative;
+    color: black;
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    height: 100vh;
+    height: 60px;
+}
+
+.blog-content .top-content i {
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 20px;
+}
+
+.blog-content .top-content h1 {
+    margin: 0;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+@media (min-width: 1000px) {
+    .blog-content .top-content {
+        display: none;
+    }
+}
+/* END TOP SECTION */
 
 /* START LEFT SECTION */
 .blog-content .left-content {
@@ -40,10 +87,20 @@ body {
     position: fixed;
     left: 0;
     top: 0;
-    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);    height: 100vh;
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    height: 100vh;
     width: 300px;
     text-align: center;
     color: white;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.blog-content .left-content .fa{
+    display: none;
 }
 
 .blog-content .left-content h1 {
@@ -128,10 +185,19 @@ body {
         -moz-transform: translateY(-10px);
         -ms-transform: translateY(-10px);
         -o-transform: translateY(-10px);
-}
+    }
 }
 
 @media (max-width: 1000px) {
+    .blog-content .left-content .fa{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 10px;
+        font-size: 25px;
+    }
+    
     .blog-content .left-content {
         left: -300px;
     }
@@ -141,7 +207,7 @@ body {
 /* START RIGHT SECTION */
 .right-content {
     grid-area: right;
-    background-color: red;
+    /* background-color: red; */
     height: 100vh;
     width: 100%;
 }

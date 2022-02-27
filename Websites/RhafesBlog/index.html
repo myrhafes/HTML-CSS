@@ -21,28 +21,43 @@
     <title>Rhafes Blog</title>
 </head>
 <body>
-    <div class="blog-content">
-        <div class="left-content">
-                <h1>Mohamed Yassine</h1>
-                <hr>
-                <img src="Assets/images/me.jfif" alt="">
-                <p>Hi, my name is Mohamed Yassine RHAFES. 
-                    Briefly introduce yourself here. 
-                    You can also provide a link to the about page.
-                </p>
-                <a href="">Download CV</a>
-                <div class="social">
-                    <i class="fa-brands fa-linkedin"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-github"></i>
-                    <i class="fa-brands fa-youtube"></i>
-                    <i class="fa-brands fa-twitch"></i>
-                </div>
+    <div class="blog-content" id="content">
+        <!-- START TOP SECTION -->
+        <div class="top-content">
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            <h1>RHAFES'S BLOG</h1>
+        </div>
+        <!-- END TOP SECTION -->
+
+        <!-- START LEFT SECTION -->
+        <div class="left-content" id="nav">
+            <i class="fa-solid fa-xmark fa" onclick="closeMenu()"></i>
+            <h1>Mohamed Yassine</h1>
+            <hr>
+            <img src="Assets/images/me.jfif" alt="">
+            <p>Hi, my name is Mohamed Yassine RHAFES. 
+                Briefly introduce yourself here. 
+                You can also provide a link to the about page.
+            </p>
+            <a href="">Download CV</a>
+            <div class="social">
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-twitch"></i>
             </div>
+        </div>
+        <!-- END LEFT SECTION -->
+
+        <!-- START RIGHT SECTION -->
+        <div class="right-content">
 
         </div>
-        <div class="right-content">
-        </div>
+        <!-- END RIGHT SECTION -->
     </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="Assets/js/index.js"></script>
 </body>
 </html>
