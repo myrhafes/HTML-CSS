@@ -12,6 +12,7 @@ This my repository for training (HTML and CSS)
 ├── Websites                # Here you can find websites
 │ └── Leon                   # Website: Leon template
 │ └── Eduford                # Website: Eduford template
+│ └── RhafesBlog             # Website: RhafesBlog template
 ├── .gitignore              # For ignoring files and folders
 └── README.md               # For documentation
 ```
