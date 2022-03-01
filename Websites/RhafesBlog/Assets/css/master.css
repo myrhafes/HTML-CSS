@@ -361,4 +361,30 @@ body {
     background-color: #2a5298;
 }
 /* END NEXT BUTTON */
+
+/* START FOOTER */
+.footer {
+    position: absolute;
+    background-color: #1e3c72;
+    color: white;
+    height: 60px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 80px;
+    left: 300px;
+    width: calc(100% - 300px);
+}
+
+.footer i {
+    margin: 0 5px;
+    font-style: normal;
+}
+
+@media (max-width: 1000px) {
+    .footer {
+        width: 100%;
+        left: 0;
+    }
+}
+/* END FOOTER */
 /* END BLOG CONTENT */
