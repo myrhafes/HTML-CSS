@@ -1,3 +1,9 @@
+/* START VARIABLE */
+:root {
+    --main-color: #19c8fa;
+}
+/* END VARIABLE */
+
 /* START GLOBAL RULES */
 * {
     box-sizing: border-box;
@@ -7,7 +13,11 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
     font-family: "Open Sans", sans-serif;
+    background-color: black;
 }
 
 ul {
@@ -42,3 +52,118 @@ ul {
 }
 /* END MEDIA QUERY */
 /*END GLOBAL RULES */
+
+/* START HEADER */
+header {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    min-height: 97px;
+}
+
+header .container::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: #a2a2a2;
+    bottom: 0;
+    left: 15px;
+    width: calc(100% - 30px);
+}
+
+header .container .logo img {
+    height: 50px;
+}
+
+header .container nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header .container nav .toggle-menu {
+    color: white;
+    font-size: 22px;
+    display: none;
+}
+
+header .container nav ul {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    header .container nav .toggle-menu {
+        display: block;
+    }
+
+    header .container nav .toggle-menu:hover + ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgb(0, 0, 0 / 50%);
+    }
+
+    header .container nav .toggle-menu:hover + ul li a {
+        padding: 15px !important;
+
+    }
+
+    header .container nav ul {
+        display: none;
+    }
+}
+
+header .container nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 40px 10px;
+    position: relative;
+    z-index: 1;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+header .container nav ul li a.active,
+header .container nav ul li a:hover {
+    color: var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+}
+
+header .container nav .form {
+    width: 40px;
+    height: 30px;
+    position: relative;
+    margin-left: 30px;
+    border-left: 1px solid white;
+}
+
+header .container nav .form i {
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+/* END HEADER */
