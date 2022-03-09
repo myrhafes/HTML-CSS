@@ -18,7 +18,6 @@ html {
 
 body {
     font-family: "Open Sans", sans-serif;
-    /* background-color: black; */
 }
 
 ul {
@@ -53,6 +52,67 @@ ul {
 }
 /* END MEDIA QUERY */
 /*END GLOBAL RULES */
+
+/* START GLOBAL COMPONENT */
+.section {
+    padding: 100px;
+}
+.main-heading {
+    text-align: center;
+}
+
+.main-heading h2 {
+    font-weight: normal;
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+}
+
+.main-heading h2::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #333;
+    width: 120px;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.main-heading h2::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #333;
+    bottom: -36px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.main-heading p {
+    width: 550px;
+    margin: 0 auto 100px;
+    max-width: 100%;
+    line-height: 2;
+    color: #777;
+}
+/* END GLOBAL COMPONENT */
 
 /* START HEADER */
 header {
