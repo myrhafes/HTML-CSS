@@ -619,7 +619,7 @@ header .container nav .form i {
 /* END VIDEO SECTION */
 /* START ABOUT SECTION */
 .about {
-    padding-top: var(--main-color);
+    padding-top: var(--section-padding);
     overflow: hidden;
     text-align: center;
 }
