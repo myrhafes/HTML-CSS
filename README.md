@@ -13,6 +13,7 @@ This my repository for training (HTML and CSS)
 │ └── Leon                   # Website: Leon template
 │ └── Eduford                # Website: Eduford template
 │ └── RhafesBlog             # Website: RhafesBlog template
+│ └── Kasper                 # Website: Kasper template
 ├── .gitignore              # For ignoring files and folders
 └── README.md               # For documentation
 ```
