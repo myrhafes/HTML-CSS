@@ -747,7 +747,7 @@ header .container nav .form i {
     line-height: 2;
     margin-bottom: 60px;
 }
-
+/* START TESTIMONIALS SECTION */
 .our-skills .testimonials .content {
     display: flex;
     margin-bottom: 30px;
@@ -810,4 +810,54 @@ header .container nav .form i {
     background-color: var(--main-color);
     border-color: var(--main-color);
 }
+/* END TESTIMONIALS SECTION */
+/* START PROGRESS SECTION */
+.our-skills .skills .prog-holder {
+    margin-bottom: 40px;
+}
+.our-skills .skills .prog-holder h4 {
+    margin-bottom: 15px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.our-skills .skills .prog-holder .prog {
+    background-color: #dedadc;
+    height: 5px;
+}
+
+.our-skills .skills .prog-holder .prog span {
+    display: block;
+    background-color: var(--main-color);
+    height: 100%;
+    position: relative;
+}
+
+.our-skills .skills .prog-holder .prog span::before {
+    content: attr(data-progress);
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: -40px;
+    right: -18px;
+    padding: 4px 0;
+    width: 40px;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.our-skills .skills .prog-holder .prog span::after {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-width: 8px;
+    border-color: black transparent transparent transparent;
+    right: -8px;
+    top: -15px;
+}
+/* END PROGRESS SECTION */
 /* END SKILLS SECTION */
