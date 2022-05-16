@@ -1,0 +1,40 @@
+/* 
+    Flexible Box
+    For Parent
+    - display: flex => To start flexible box
+    - flex-direction: row => Default value (row-reverse, colomun, column-reverse)
+    - flex-wrap: nowrap => Default value (wrap, wrap revese)
+    - flex-flow: [flex-direction flex-wrap]
+    - justify-content: flex-start => default value (flex-end, center, space-between, space-around, space-evently)
+    - align-items : stretch => default value (flex-start, center, flex-end)
+    - align-content : flex-start, flex-end, center, space-between, space-around, space-evently
+    */
+
+* {
+    box-sizing: border-box;
+    /* direction: rtl; */
+}
+
+.flex {
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+}
+
+.flex div {
+    background-color: #f00;
+    color: white;
+    width: calc(90% /3);
+    text-align: center;
+    padding: 20px;
+}
+
+.one {
+    height: 80px;
+}
+.two {
+    height: 180px;
+}
