@@ -13,7 +13,7 @@
     - flex-grow: 0 => Default value  
     - flex-shrink: 1 => Default value 
     - order: 0 => default value
-    - flex-basis : auto => default value
+    - flex-basis : auto => default value (20%, 200px ...)
     - flex [Flex Grow] [Flex shrink] [Flex basis] => 0 1 auto
     - align-self: flex-start, flex-end, center
     */
@@ -26,7 +26,6 @@
 .flex {
     background-color: #eee;
     width: 600px;
-    height: 600px;
     padding: 20px;
     margin: 20px auto;
     display: flex;
@@ -39,12 +38,33 @@
     text-align: center;
     padding: 20px;
     margin-right: 5px;
-    align-self: flex-start;
 }
+
+.flex2 {
+    background-color: #eee;
+    display: flex;
+    padding: 20px;
+    width: 500px;
+    height: 1000px;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /* align-content: space-between; */
+}
+
+.flex2 div {
+    background-color: #f00;
+    color: white;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    width: calc(90% /3);
+}
+
 .three {
-    flex-shrink: 2;
-    order: 5;
+    align-self: center;
 }
+
 .one {
-    order: 6;
+    /* height: 100px; */
 }
